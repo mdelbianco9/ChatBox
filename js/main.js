@@ -56,6 +56,7 @@ var app6 = new Vue({
 
       // This creates an element and tells its value to be the entered value from the input
       var talk = document.createElement('h5');
+      talk.className = 'newText'
       var insideTalk = document.createTextNode(entry);
       // Puts The entry value inside the h5
       talk.appendChild(insideTalk);
@@ -65,10 +66,14 @@ var app6 = new Vue({
       // item.appendChild(talk);
 
       // This puts the created element into out div in HTML 
-      var div = document.getElementById('chat-room')
+      var div = document.getElementById('chat-text')
       div.appendChild(talk);
 
-      // When you hit enter it clears the input text
+      // Clears the input feild
+      var entry = document.getElementById('chat-input').value = " ";
+
+
+
 
     }
   }
