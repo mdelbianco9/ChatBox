@@ -56,12 +56,10 @@ body {
 	height: 2rem; 
 	background-color: lightgrey;
 	margin-top: 0px;
+	overflow: hidden;
 }
 
-#chat-text {
-	margin-bottom: 0px;
-}
-
+/*The H5 element created in JS*/
 .newText {
 	background-color: yellow;
 	width: 50%;

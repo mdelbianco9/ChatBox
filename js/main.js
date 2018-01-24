@@ -58,12 +58,9 @@ var app6 = new Vue({
       var talk = document.createElement('h5');
       talk.className = 'newText'
       var insideTalk = document.createTextNode(entry);
+      
       // Puts The entry value inside the h5
       talk.appendChild(insideTalk);
-      
-      // Puts the div of objects onto the page inside div id=shirts
-      // var item = document.getElementById('item')
-      // item.appendChild(talk);
 
       // This puts the created element into out div in HTML 
       var div = document.getElementById('chat-text')
